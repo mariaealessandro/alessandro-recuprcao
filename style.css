@@ -1,0 +1,14 @@
+:root{
+    --cor-da-fonte:rgb(0, 255, 0);
+    --cor-do-fundo:rgb(0, 0, 0);
+    --cor-fonte--cabeçalho:rgb(255, 255, 255);
+    --cor-fundo--cabeçalho:rgb(255, 0, 0);
+}
+body{ 
+    color:var(--cor-da-fonte); 
+    background-color:var(--cor-do-fundo);
+}
+header{
+    color:var(--cor-fonte--cabeçalho);
+    background-color:var(--cor-fundo--cabeçalho);
+}
